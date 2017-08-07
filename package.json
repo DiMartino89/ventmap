@@ -1,0 +1,17 @@
+{
+  "name": "ventmap",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "client": "cd client && npm install && npm start",
+    "server": "cd server && npm install && gulp",
+    "start": "concurrent \"npm run client\" \"npm run server\" "
+  },
+  "devDependencies": {
+    "concurrently": "3.4.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    
+  }
+}
